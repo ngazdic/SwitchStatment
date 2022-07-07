@@ -3,28 +3,28 @@
 
 
 
-Console.WriteLine("Guess my favourite subject(start with capital letter:)):");
+Console.WriteLine("Guess my favourite subject:");
 var favSchoolSubject = Console.ReadLine();
 
-switch (favSchoolSubject)
+switch (favSchoolSubject.ToLower())
 {
 
-    case "English":
+    case "english":
 
         Console.WriteLine("Yay thats it");
             break;
 
-    case "Math":
+    case "math":
 
         Console.WriteLine("Nope");
         break;
 
-    case "Spanish":
+    case "spanish":
 
         Console.WriteLine("Close");
         break;
 
-    case "History":
+    case "history":
         Console.WriteLine("Cool but nope");
         break;
 
